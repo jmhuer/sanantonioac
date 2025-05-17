@@ -23,7 +23,7 @@
   <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
     <div class="container">
       <a class="navbar-brand" href="#">
-        <span class="brand-text">SanAntonio</span> <span class="brand-accent">AC Repair</span>
+        <img src="./images/cc-logo.svg" alt="CoolCar AC Repair Logo" height="40">
       </a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -51,7 +51,7 @@
   </nav>
 
   <!-- Hero Section -->
-  <header id="home" class="hero">
+  <header id="home" class="hero" style="background: url('./images/hero-bg.jpg') no-repeat center center; background-size: cover;">
     <div class="overlay"></div>
     <div class="container">
       <div class="row hero-content">
@@ -77,12 +77,15 @@
             </div>
           </div>
         </div>
+        <div class="col-lg-6 d-none d-lg-block">
+          <img src="./images/ac-repair-hero.png" alt="AC Repair Service" class="img-fluid mt-4 fadeIn">
+        </div>
       </div>
     </div>
   </header>
 
   <!-- AC Problems Banner -->
-  <section class="ac-problems bg-light py-4">
+  <section class="ac-problems py-4">
     <div class="container">
       <div class="row text-center">
         <div class="col-12">
@@ -111,6 +114,7 @@
             </div>
             <h3>AC Diagnostics</h3>
             <p>Our thorough diagnostic process identifies the exact cause of your AC problems, from minor issues to complex system failures.</p>
+            <img src="./images/ac-diagnostic.jpg" alt="AC Diagnostics" class="img-fluid rounded mb-3">
             <ul class="service-list">
               <li>Complete system inspection</li>
               <li>Performance testing</li>
@@ -129,6 +133,7 @@
             </div>
             <h3>AC Recharge & Repair</h3>
             <p>Get your AC blowing cold again with our comprehensive recharge and repair service designed to restore optimal cooling.</p>
+            <img src="./images/ac-recharge.jpg" alt="AC Recharge & Repair" class="img-fluid rounded mb-3">
             <ul class="service-list">
               <li>Refrigerant recharge</li>
               <li>Leak repair</li>
@@ -146,6 +151,7 @@
             </div>
             <h3>Component Replacement</h3>
             <p>When parts fail, our technicians can quickly replace compressors, condensers, evaporators, and other AC components.</p>
+            <img src="./images/component-replacement.jpg" alt="Component Replacement" class="img-fluid rounded mb-3">
             <ul class="service-list">
               <li>Compressor replacement</li>
               <li>Condenser service</li>
@@ -169,24 +175,28 @@
           <div class="mini-service">
             <i class="fas fa-oil-can"></i>
             <h4>Oil Changes</h4>
+            <img src="./images/oil-change.jpg" alt="Oil Change Service" class="img-fluid rounded mt-2">
           </div>
         </div>
         <div class="col-md-3 col-6">
           <div class="mini-service">
             <i class="fas fa-car-battery"></i>
             <h4>Battery Service</h4>
+            <img src="./images/battery-service.jpg" alt="Battery Service" class="img-fluid rounded mt-2">
           </div>
         </div>
         <div class="col-md-3 col-6">
           <div class="mini-service">
             <i class="fas fa-tachometer-alt"></i>
             <h4>Engine Diagnostics</h4>
+            <img src="./images/engine-diagnostics.jpg" alt="Engine Diagnostics" class="img-fluid rounded mt-2">
           </div>
         </div>
         <div class="col-md-3 col-6">
           <div class="mini-service">
             <i class="fas fa-cogs"></i>
             <h4>Brake Repair</h4>
+            <img src="./images/brake-repair.jpg" alt="Brake Repair" class="img-fluid rounded mt-2">
           </div>
         </div>
       </div>
@@ -255,6 +265,7 @@
           <div class="process-step">
             <div class="process-number">1</div>
             <h3>Contact Us</h3>
+            <img src="./images/contact-us.jpg" alt="Contact Us" class="img-fluid rounded mb-3">
             <p>Call or use our online form to schedule an appointment at a time that works for you.</p>
           </div>
         </div>
@@ -263,6 +274,7 @@
           <div class="process-step">
             <div class="process-number">2</div>
             <h3>Diagnosis</h3>
+            <img src="./images/diagnosis.jpg" alt="AC Diagnosis" class="img-fluid rounded mb-3">
             <p>Our technicians will perform a thorough inspection to identify the exact issue with your AC.</p>
           </div>
         </div>
@@ -271,6 +283,7 @@
           <div class="process-step">
             <div class="process-number">3</div>
             <h3>Upfront Quote</h3>
+            <img src="./images/quote.jpg" alt="Upfront Quote" class="img-fluid rounded mb-3">
             <p>We'll provide a clear, no-obligation quote before proceeding with any repairs.</p>
           </div>
         </div>
@@ -279,6 +292,7 @@
           <div class="process-step">
             <div class="process-number">4</div>
             <h3>Expert Repair</h3>
+            <img src="./images/expert-repair.jpg" alt="Expert Repair" class="img-fluid rounded mb-3">
             <p>Our specialists will fix your AC system using quality parts and proven techniques.</p>
           </div>
         </div>
@@ -308,8 +322,15 @@
             </div>
             <p class="quote">"My car's AC stopped working during the hottest week of summer. These guys got me in the same day, found the issue quickly, and had me back on the road with ice-cold air by the afternoon. Incredible service!"</p>
             <div class="client">
-              <h4>Michael R.</h4>
-              <p>Toyota Camry Owner</p>
+              <div class="row align-items-center">
+                <div class="col-3">
+                  <img src="./images/customer1.jpg" alt="Michael R." class="img-fluid rounded-circle">
+                </div>
+                <div class="col-9">
+                  <h4>Michael R.</h4>
+                  <p>Toyota Camry Owner</p>
+                </div>
+              </div>
             </div>
           </div>
         </div>
@@ -325,8 +346,15 @@
             </div>
             <p class="quote">"After three other shops couldn't figure out why my AC was making noise, these specialists diagnosed and fixed the problem in one visit. Fair price and excellent technical knowledge. Highly recommend!"</p>
             <div class="client">
-              <h4>Jennifer T.</h4>
-              <p>Honda CR-V Owner</p>
+              <div class="row align-items-center">
+                <div class="col-3">
+                  <img src="./images/customer2.jpg" alt="Jennifer T." class="img-fluid rounded-circle">
+                </div>
+                <div class="col-9">
+                  <h4>Jennifer T.</h4>
+                  <p>Honda CR-V Owner</p>
+                </div>
+              </div>
             </div>
           </div>
         </div>
@@ -342,8 +370,15 @@
             </div>
             <p class="quote">"The technicians explained everything clearly and didn't try to upsell me on unnecessary services. My AC has been working perfectly for months now. I'll definitely return for any future car problems."</p>
             <div class="client">
-              <h4>David L.</h4>
-              <p>Ford F-150 Owner</p>
+              <div class="row align-items-center">
+                <div class="col-3">
+                  <img src="./images/customer3.jpg" alt="David L." class="img-fluid rounded-circle">
+                </div>
+                <div class="col-9">
+                  <h4>David L.</h4>
+                  <p>Ford F-150 Owner</p>
+                </div>
+              </div>
             </div>
           </div>
         </div>
@@ -489,7 +524,7 @@
     <div class="container">
       <div class="row">
         <div class="col-lg-4 mb-4 mb-lg-0">
-          <h3 class="footer-heading">CoolCar AC Repair</h3>
+          <img src="./images/cc-logo.svg" alt="CoolCar AC Repair Logo" height="40" class="mb-3">
           <p>Your trusted specialist for automotive air conditioning repair and service. We keep you cool on the road.</p>
           <div class="social-links">
             <a href="#"><i class="fab fa-facebook-f"></i></a>
@@ -551,27 +586,5 @@
   
   <!-- Custom JS -->
   <script src="./js/main.js"></script>
-  
-  <script>
-    // Set current year in footer
-    document.getElementById('year').textContent = new Date().getFullYear();
-    
-    // Form submission handling
-    document.getElementById('appointment-form').addEventListener('submit', function(e) {
-      e.preventDefault();
-      alert('Thank you for your submission! We will contact you shortly to confirm your appointment.');
-      this.reset();
-    });
-    
-    // Navbar scroll behavior
-    window.addEventListener('scroll', function() {
-      const navbar = document.querySelector('.navbar');
-      if (window.scrollY > 50) {
-        navbar.classList.add('scrolled');
-      } else {
-        navbar.classList.remove('scrolled');
-      }
-    });
-  </script>
 </body>
 </html>
